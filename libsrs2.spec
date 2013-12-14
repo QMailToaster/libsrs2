@@ -20,6 +20,8 @@ SRS implementation library.
 %package -n %{name}-devel
 Summary:	SRS library build/development
 Group:		System Environment/Libraries
+Provides:	libsrs2-static
+
 %description -n %{name}-devel
 SRS build/development library, for building packages which use libsrs2.
 
