@@ -1,14 +1,16 @@
-Name:		libsrs2
-Summary:	Next generation SRS library
-Version:	1.0.18
-Release:	0%{?dist}
-License:	SRS Library
-Group:		System Environment/Libraries
-URL:		http://www.libsrs2.org/
-Source0:	http://www.libsrs2.org/srs/%{name}-%{version}.tar.gz
-BuildRequires:  gcc-c++
-Obsoletes:	libsrs2-toaster
-BuildRoot:      %{_topdir}/BUILDROOT/%{name}-%{version}-%{release}.%{_arch}
+Name:      libsrs2
+Summary:   Next generation SRS library
+Version:   1.0.18
+Release:   0%{?dist}
+License:   SRS Library
+Group:     System Environment/Libraries
+Vendor:    QmailToaster
+Packager:  Eric Shubert <qmt-build@datamatters.us>
+URL:       http://www.libsrs2.org/
+Source0:   http://www.libsrs2.org/srs/%{name}-%{version}.tar.gz
+BuildRequires: gcc-c++
+Obsoletes: libsrs2-toaster
+BuildRoot: %{_topdir}/BUILDROOT/%{name}-%{version}-%{release}.%{_arch}
 
 %define debug_package %{nil}
 
